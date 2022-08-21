@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sweena-mv/B-Assignment.git/precache-manifest.5985e6856f5f68331b1c2cd996fa95aa.js"
+  "/sweena-mv/React-app.git/precache-manifest.9d9fb4cbf3e784bf8fc76560fc4cfd8a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/sweena-mv/B-Assignment.git/index.html", {
+workbox.routing.registerNavigationRoute("/sweena-mv/React-app.git/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
